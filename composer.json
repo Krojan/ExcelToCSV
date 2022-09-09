@@ -1,0 +1,13 @@
+{
+    "name": "rojan/excel-to-csv",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Export\\": "public/export",
+            "Import\\": "public/import"
+        }
+    }
+}
